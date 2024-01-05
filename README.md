@@ -54,8 +54,7 @@ Our website is designed with the user in mind, providing a smooth and intuitive 
 1. Clone the repository.
 2. Install dependencies using `npm install` in both the client and server directories.
 3. Configure MongoDB connection in the server.
-4. Run the server using `npm start` in the server directory.
-5. Run the client using `npm start` in the client directory.
+4. Run the server using `npm run dev`.
 
 Explore, upload, edit, and delete with confidence, knowing that our platform is equipped with the latest technologies to enhance your overall reading and contributing experience.
 
