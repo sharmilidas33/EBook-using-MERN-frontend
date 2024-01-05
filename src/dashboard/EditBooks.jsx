@@ -48,7 +48,7 @@ const EditBooks = () => {
         // console.log(bookObj)
 
         // send data to server for updating the database
-        fetch(`http://localhost:5000/book/${id}`, {
+        fetch(`https://ebook-using-mern.onrender.com/book/${id}`, {
             method: "PATCH",
             headers: {
                 'Content-Type': 'application/json'

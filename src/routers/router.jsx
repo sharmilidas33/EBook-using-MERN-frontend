@@ -41,7 +41,7 @@ import Logout from "../components/Logout";
         {
             path: '/book/:id',
             element: <SingleBook/>,
-            loader: ({params})=> fetch(`http://localhost:5000/book/${params.id}`),
+            loader: ({params})=> fetch(`https://ebook-using-mern.onrender.com/book/${params.id}`),
         }
       ]
     },
@@ -65,7 +65,7 @@ import Logout from "../components/Logout";
         {
           path: "/admin/dashboard/edit-books/:id",
           element : <EditBooks/>,
-          loader : ({params}) =>  fetch(`http://localhost:5000/book/${params.id}`),
+          loader : ({params}) =>  fetch(`https://ebook-using-mern.onrender.com/book/${params.id}`),
         },
 
       ]
